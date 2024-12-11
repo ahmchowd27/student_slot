@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api", // Ensure this matches the backend
+  baseURL: "https://student-slot-1.onrender.com/api", // Ensure this matches the backend
 });
 
 export const fetchTimeSlots = () => api.get("/timeslots");
